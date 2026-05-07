@@ -110,3 +110,18 @@ hello:
  li a7, SYS_hello
  ecall
  ret
+.global mypid
+mypid:
+ li a7, SYS_mypid
+ ecall
+ ret
+.global getprocs
+getprocs:
+ li a7, SYS_getprocs
+ ecall
+ ret
+.global sleep
+sleep:
+ li a7, SYS_sleep
+ ecall
+ ret

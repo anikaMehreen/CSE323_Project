@@ -43,3 +43,6 @@ entry("sbrk");
 entry("pause");
 entry("uptime");
 entry("hello");
+entry("mypid");
+entry("getprocs");
+entry("sleep");

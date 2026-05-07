@@ -146,6 +146,9 @@ UPROGS=\
 	$U/_forphan\
 	$U/_dorphan\
 	$U/_helloworld\
+	$U/_mypid\
+	$U/_makestates\
+	$U/_top\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)

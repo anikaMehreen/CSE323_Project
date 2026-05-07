@@ -21,3 +21,6 @@
 #define SYS_mkdir  20
 #define SYS_close  21
 #define SYS_hello  22
+#define SYS_mypid  23
+#define SYS_getprocs 24
+#define SYS_sleep  25
