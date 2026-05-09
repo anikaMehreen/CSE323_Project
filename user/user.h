@@ -25,6 +25,18 @@ char* sys_sbrk(int,int);
 int pause(int);
 int uptime(void);
 int trace(int);
+int hello(void);
+int mypid(void);
+struct procinfo {
+  int pid;
+  char name[16];
+  int state;
+  uint64 cputicks;
+  int ppid;
+  uint64 sz;
+};
+int getprocs(struct procinfo*, int);
+int sleep(int);
 
 // ulib.c
 int stat(const char*, struct stat*);
