@@ -1,0 +1,13 @@
+*.o
+*.d
+*.asm
+*.sym
+*.img
+*.log
+kernel/kernel
+mkfs/mkfs
+_forktest
+__pycache__/
+
+# Ignore compiled binaries
+user/_*
